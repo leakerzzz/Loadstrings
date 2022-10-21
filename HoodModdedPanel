@@ -1,0 +1,1181 @@
+-- Decompiled with the Synapse X Luau Decompiler. (BINARY PROTECTION)
+-- Cracked with Remote Spy v2.6
+-- Hood Modded Admin Panel
+-- Created By Leakerzzz#0001
+
+--[[]
+ ▄████▄   ▒█████   ██▀███   ██▀███   █    ██  ██▓███  ▄▄▄█████▓    ▒█████   ▄▄▄▄    ██▓     ██▓ ██▒   █▓ ██▓ ▒█████   ███▄    █ 
+▒██▀ ▀█  ▒██▒  ██▒▓██ ▒ ██▒▓██ ▒ ██▒ ██  ▓██▒▓██░  ██▒▓  ██▒ ▓▒   ▒██▒  ██▒▓█████▄ ▓██▒    ▓██▒▓██░   █▒▓██▒▒██▒  ██▒ ██ ▀█   █ 
+▒▓█    ▄ ▒██░  ██▒▓██ ░▄█ ▒▓██ ░▄█ ▒▓██  ▒██░▓██░ ██▓▒▒ ▓██░ ▒░   ▒██░  ██▒▒██▒ ▄██▒██░    ▒██▒ ▓██  █▒░▒██▒▒██░  ██▒▓██  ▀█ ██▒
+▒▓▓▄ ▄██▒▒██   ██░▒██▀▀█▄  ▒██▀▀█▄  ▓▓█  ░██░▒██▄█▓▒ ▒░ ▓██▓ ░    ▒██   ██░▒██░█▀  ▒██░    ░██░  ▒██ █░░░██░▒██   ██░▓██▒  ▐▌██▒
+▒ ▓███▀ ░░ ████▓▒░░██▓ ▒██▒░██▓ ▒██▒▒▒█████▓ ▒██▒ ░  ░  ▒██▒ ░    ░ ████▓▒░░▓█  ▀█▓░██████▒░██░   ▒▀█░  ░██░░ ████▓▒░▒██░   ▓██░
+░ ░▒ ▒  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ▒▓▒░ ░  ░  ▒ ░░      ░ ▒░▒░▒░ ░▒▓███▀▒░ ▒░▓  ░░▓     ░ ▐░  ░▓  ░ ▒░▒░▒░ ░ ▒░   ▒ ▒ 
+  ░  ▒     ░ ▒ ▒░   ░▒ ░ ▒░  ░▒ ░ ▒░░░▒░ ░ ░ ░▒ ░         ░         ░ ▒ ▒░ ▒░▒   ░ ░ ░ ▒  ░ ▒ ░   ░ ░░   ▒ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+░        ░ ░ ░ ▒    ░░   ░   ░░   ░  ░░░ ░ ░ ░░         ░         ░ ░ ░ ▒   ░    ░   ░ ░    ▒ ░     ░░   ▒ ░░ ░ ░ ▒     ░   ░ ░ 
+░ ░          ░ ░     ░        ░        ░                              ░ ░   ░          ░  ░ ░        ░   ░      ░ ░           ░ 
+░                                                                                ░                  ░                           
+SCRIPT BY CORRUPTOBLIVION
+
+discord.gg/leakerzzz
+
+!! NOTICE !! DO NOT DIRECTLY EXECUTE THE SOURCE, USE THE LOADSTRING FOUND IN discord.gg/leakerzzz
+]]
+
+
+repeat task.wait() until game:IsLoaded()
+
+if game:GetService("CoreGui"):FindFirstChild("Leakerzzz") then
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Leakerzzz",
+        Text = "You only need to execute once. This will lag your game.",
+        Duration = 25,
+        Icon = 'rbxassetid://9423555621'
+    })
+    -- print('[Re Executing]')
+end 
+
+local HoodModdedPlaces = {
+    5602055394, -- Regular
+    9610943121, -- Banland
+    7951883376, -- Voice
+    9293553078, -- Ranked
+}
+
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+  Title = "Leakerzz",
+  Text = "Loading Panel...",
+  Duration = 5,
+  Icon = 'rbxassetid://9423555621'
+}) 
+
+task.spawn(function()
+    if not game:GetService('Players').LocalPlayer:IsInGroup(15070691) then
+        setclipboard('https://www.roblox.com/groups/15070691/Leakerzz#!/about')
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+              Title = "Leakerzz",
+              Text = "Join the group! (Copied to Clipboard)",
+              Duration = 15,
+              Icon = 'rbxassetid://9423555621'
+         }) 
+    end
+    task.wait(3)
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+       Title = "Leakerzz",
+       Text = "Toggle the UI with V",
+       Duration = 15,
+       Icon = 'rbxassetid://9423555621'
+    }) 
+end)
+
+_G.Tick = tick()
+
+if table.find(DaHoodPlaces, game.PlaceId) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/leakerzzz/HoodModdedPurge/main/ModdedPanel"))()
+        elseif table.find(HoodModdedPlaces, game.PlaceId) then
+    loadstring(game:HttpGet(""))()
+        else
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Leakerzzz",
+        Text = "Game not supported!",
+        Duration = 25,
+        Icon = 'rbxassetid://9423555621'                
+    })    
+end
+
+-- UI
+
+local BanGui = Instance.new("ScreenGui")
+local BanGui_2 = Instance.new("Frame")
+local PlayerName = Instance.new("TextLabel")
+local JoinServer = Instance.new("TextButton")
+local JoinServerPlayer = Instance.new("TextBox")
+local PERMA = Instance.new("TextButton")
+local UNBAN = Instance.new("TextButton")
+local PERMAID = Instance.new("TextBox")
+local UNBANID = Instance.new("TextBox")
+local FIndPlayerServerID = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local TextBox = Instance.new("TextBox")
+local Unban = Instance.new("TextButton")
+local Spectate = Instance.new("TextButton")
+local Unban_2 = Instance.new("TextButton")
+local Spectate_2 = Instance.new("TextButton")
+local Spectate_3 = Instance.new("TextButton")
+local Spectate_4 = Instance.new("TextButton")
+local Spectate_5 = Instance.new("TextButton")
+local Spectate_6 = Instance.new("TextButton")
+local Spectate_7 = Instance.new("TextButton")
+local Spectate_8 = Instance.new("TextButton")
+local Spectate_9 = Instance.new("TextButton")
+local Spectate_10 = Instance.new("TextButton")
+local Spectate_11 = Instance.new("TextButton")
+local Spectate_12 = Instance.new("TextButton")
+local Spectate_13 = Instance.new("TextButton")
+local Spectate_14 = Instance.new("TextButton")
+local Spectate_15 = Instance.new("TextButton")
+local TextBox_2 = Instance.new("TextBox")
+local Spectate_16 = Instance.new("TextButton")
+local Spectate_17 = Instance.new("TextButton")
+local Spectate_18 = Instance.new("TextButton")
+local Unban_3 = Instance.new("TextButton")
+local Spectate_19 = Instance.new("TextButton")
+local Spectate_20 = Instance.new("TextButton")
+local User = Instance.new("TextButton")
+local Unban_4 = Instance.new("TextButton")
+local Unban_5 = Instance.new("TextButton")
+local TextBox_3 = Instance.new("TextBox")
+local Unban_6 = Instance.new("TextButton")
+local Unban_7 = Instance.new("TextButton")
+local User_2 = Instance.new("TextButton")
+local User_3 = Instance.new("TextButton")
+local User_4 = Instance.new("TextButton")
+local Unban_8 = Instance.new("TextButton")
+local TextBox_4 = Instance.new("TextBox")
+local Unban_9 = Instance.new("TextButton")
+local User_5 = Instance.new("TextButton")
+local Unban_10 = Instance.new("TextButton")
+local TextBox_5 = Instance.new("TextBox")
+local Unban_11 = Instance.new("TextButton")
+local TextBox_6 = Instance.new("TextBox")
+local Unban_12 = Instance.new("TextButton")
+local TextBox_7 = Instance.new("TextBox")
+local Unban_13 = Instance.new("TextButton")
+local Unban_14 = Instance.new("TextButton")
+local Unban_15 = Instance.new("TextButton")
+local User_6 = Instance.new("TextButton")
+local User_7 = Instance.new("TextButton")
+local Unban_16 = Instance.new("TextButton")
+local Unban_17 = Instance.new("TextButton")
+local TextBox_8 = Instance.new("TextBox")
+local User_8 = Instance.new("TextButton")
+local Unban_18 = Instance.new("TextButton")
+local Unban_19 = Instance.new("TextButton")
+local User_9 = Instance.new("TextButton")
+local User_10 = Instance.new("TextButton")
+local Unban_20 = Instance.new("TextButton")
+local Unban_21 = Instance.new("TextButton")
+local TextBox_9 = Instance.new("TextBox")
+local TextBox_10 = Instance.new("TextBox")
+local User_11 = Instance.new("TextButton")
+local Unban_22 = Instance.new("TextButton")
+local TextBox_11 = Instance.new("TextBox")
+local Spectate_21 = Instance.new("TextButton")
+local Spectate_22 = Instance.new("TextButton")
+local Spectate_23 = Instance.new("TextButton")
+local Spectate_24 = Instance.new("TextButton")
+local Spectate_25 = Instance.new("TextButton")
+local Spectate_26 = Instance.new("TextButton")
+local Spectate_27 = Instance.new("TextButton")
+local Spectate_28 = Instance.new("TextButton")
+
+--Properties:
+
+BanGui.Name = "BanGui"
+BanGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+BanGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+BanGui.ResetOnSpawn = false
+
+BanGui_2.Name = "BanGui"
+BanGui_2.Parent = BanGui
+BanGui_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BanGui_2.BackgroundTransparency = 1.000
+BanGui_2.Position = UDim2.new(0.253612757, 0, 0.120958395, 0)
+BanGui_2.Size = UDim2.new(0, 783, 0, 114)
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = BanGui_2
+PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.Position = UDim2.new(0.5144732, 0, 0.0263157897, 0)
+PlayerName.Size = UDim2.new(0, 410, 0, 36)
+PlayerName.Font = Enum.Font.SourceSans
+PlayerName.Text = "PlayerName"
+PlayerName.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlayerName.TextScaled = true
+PlayerName.TextSize = 14.000
+PlayerName.TextWrapped = true
+
+JoinServer.Name = "JoinServer"
+JoinServer.Parent = BanGui_2
+JoinServer.BackgroundColor3 = Color3.fromRGB(131, 138, 216)
+JoinServer.BorderColor3 = Color3.fromRGB(27, 42, 53)
+JoinServer.Position = UDim2.new(0.00180003047, 0, 0.339071035, 0)
+JoinServer.Size = UDim2.new(0, 401, 0, 38)
+JoinServer.Font = Enum.Font.SourceSans
+JoinServer.Text = "Join Server"
+JoinServer.TextColor3 = Color3.fromRGB(0, 0, 0)
+JoinServer.TextScaled = true
+JoinServer.TextSize = 14.000
+JoinServer.TextWrapped = true
+
+JoinServerPlayer.Name = "JoinServerPlayer"
+JoinServerPlayer.Parent = BanGui_2
+JoinServerPlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JoinServerPlayer.Position = UDim2.new(0.5144732, 0, 0.339071035, 0)
+JoinServerPlayer.Size = UDim2.new(0, 410, 0, 38)
+JoinServerPlayer.Font = Enum.Font.SourceSans
+JoinServerPlayer.Text = ""
+JoinServerPlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+JoinServerPlayer.TextScaled = true
+JoinServerPlayer.TextSize = 14.000
+JoinServerPlayer.TextWrapped = true
+
+PERMA.Name = "PERMA"
+PERMA.Parent = BanGui_2
+PERMA.BackgroundColor3 = Color3.fromRGB(230, 95, 94)
+PERMA.Position = UDim2.new(0.00180018635, 0, 0.671538532, 0)
+PERMA.Size = UDim2.new(0, 401, 0, 19)
+PERMA.Font = Enum.Font.SourceSans
+PERMA.Text = "PERMA"
+PERMA.TextColor3 = Color3.fromRGB(0, 0, 0)
+PERMA.TextScaled = true
+PERMA.TextSize = 14.000
+PERMA.TextWrapped = true
+
+UNBAN.Name = "UNBAN"
+UNBAN.Parent = BanGui_2
+UNBAN.BackgroundColor3 = Color3.fromRGB(230, 196, 181)
+UNBAN.Position = UDim2.new(0.00180003047, 0, 0.846977115, 0)
+UNBAN.Size = UDim2.new(0, 401, 0, 19)
+UNBAN.Font = Enum.Font.SourceSans
+UNBAN.Text = "UNBAN"
+UNBAN.TextColor3 = Color3.fromRGB(0, 0, 0)
+UNBAN.TextScaled = true
+UNBAN.TextSize = 14.000
+UNBAN.TextWrapped = true
+
+PERMAID.Name = "PERMAID"
+PERMAID.Parent = BanGui_2
+PERMAID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PERMAID.Position = UDim2.new(0.5144732, 0, 0.675438583, 0)
+PERMAID.Size = UDim2.new(0, 410, 0, 20)
+PERMAID.Font = Enum.Font.SourceSans
+PERMAID.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+PERMAID.PlaceholderText = "UserID"
+PERMAID.Text = ""
+PERMAID.TextColor3 = Color3.fromRGB(0, 0, 0)
+PERMAID.TextScaled = true
+PERMAID.TextSize = 14.000
+PERMAID.TextWrapped = true
+
+UNBANID.Name = "UNBANID"
+UNBANID.Parent = BanGui_2
+UNBANID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UNBANID.Position = UDim2.new(0.5144732, 0, 0.842105269, 0)
+UNBANID.Size = UDim2.new(0, 410, 0, 20)
+UNBANID.Font = Enum.Font.SourceSans
+UNBANID.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+UNBANID.PlaceholderText = "UserID"
+UNBANID.Text = ""
+UNBANID.TextColor3 = Color3.fromRGB(0, 0, 0)
+UNBANID.TextScaled = true
+UNBANID.TextSize = 14.000
+UNBANID.TextWrapped = true
+
+FIndPlayerServerID.Name = "FInd Player Server ID"
+FIndPlayerServerID.Parent = BanGui_2
+FIndPlayerServerID.BackgroundColor3 = Color3.fromRGB(201, 255, 109)
+FIndPlayerServerID.Position = UDim2.new(0.00180018635, 0, 0.0263157897, 0)
+FIndPlayerServerID.Size = UDim2.new(0, 401, 0, 35)
+FIndPlayerServerID.Font = Enum.Font.SourceSans
+FIndPlayerServerID.Text = "Find Player Server ID"
+FIndPlayerServerID.TextColor3 = Color3.fromRGB(0, 0, 0)
+FIndPlayerServerID.TextScaled = true
+FIndPlayerServerID.TextSize = 14.000
+FIndPlayerServerID.TextWrapped = true
+
+Frame.Parent = BanGui_2
+Frame.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+Frame.BackgroundTransparency = 0.500
+Frame.Position = UDim2.new(0.00180018635, 0, 1.01754391, 0)
+Frame.Size = UDim2.new(0, 812, 0, 372)
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(182, 182, 182)
+ScrollingFrame.Size = UDim2.new(0, 812, 0, 372)
+
+TextBox.Parent = ScrollingFrame
+TextBox.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox.Position = UDim2.new(0.494363278, 0, 0, 0)
+TextBox.Size = UDim2.new(0, 134, 0, 39)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "Ban/Unban Note Here"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+Unban.Name = "Unban"
+Unban.Parent = ScrollingFrame
+Unban.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban.Position = UDim2.new(0.172643647, 0, 0, 0)
+Unban.Size = UDim2.new(0, 129, 0, 39)
+Unban.Font = Enum.Font.SourceSans
+Unban.Text = "Kick"
+Unban.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban.TextSize = 55.000
+Unban.TextWrapped = true
+
+Spectate.Name = "Spectate"
+Spectate.Parent = ScrollingFrame
+Spectate.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate.Position = UDim2.new(0.806649327, 0, 0.441952586, 0)
+Spectate.Size = UDim2.new(0, 138, 0, 42)
+Spectate.Font = Enum.Font.SourceSans
+Spectate.Text = "Spectate"
+Spectate.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate.TextScaled = true
+Spectate.TextSize = 20.000
+Spectate.TextStrokeTransparency = 223.000
+Spectate.TextWrapped = true
+
+Unban_2.Name = "Unban"
+Unban_2.Parent = ScrollingFrame
+Unban_2.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_2.Position = UDim2.new(0.332375318, 0, 0, 0)
+Unban_2.Size = UDim2.new(0, 130, 0, 39)
+Unban_2.Font = Enum.Font.SourceSans
+Unban_2.Text = "UnBan"
+Unban_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_2.TextSize = 55.000
+Unban_2.TextWrapped = true
+
+Spectate_2.Name = "Spectate"
+Spectate_2.Parent = ScrollingFrame
+Spectate_2.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_2.Position = UDim2.new(0.806649327, 0, 0.441952586, 0)
+Spectate_2.Size = UDim2.new(0, 138, 0, 42)
+Spectate_2.Font = Enum.Font.SourceSans
+Spectate_2.Text = "Spectate"
+Spectate_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_2.TextScaled = true
+Spectate_2.TextSize = 20.000
+Spectate_2.TextStrokeTransparency = 223.000
+Spectate_2.TextWrapped = true
+
+Spectate_3.Name = "Spectate"
+Spectate_3.Parent = ScrollingFrame
+Spectate_3.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_3.Position = UDim2.new(0.659465551, 0, -0.00229095132, 0)
+Spectate_3.Size = UDim2.new(0, 119, 0, 40)
+Spectate_3.Font = Enum.Font.SourceSans
+Spectate_3.Text = "Teleport"
+Spectate_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_3.TextScaled = true
+Spectate_3.TextSize = 20.000
+Spectate_3.TextStrokeTransparency = 223.000
+Spectate_3.TextWrapped = true
+
+Spectate_4.Name = "Spectate"
+Spectate_4.Parent = ScrollingFrame
+Spectate_4.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_4.Position = UDim2.new(0.659465551, 0, -0.00229095132, 0)
+Spectate_4.Size = UDim2.new(0, 119, 0, 40)
+Spectate_4.Font = Enum.Font.SourceSans
+Spectate_4.Text = "Teleport"
+Spectate_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_4.TextScaled = true
+Spectate_4.TextSize = 20.000
+Spectate_4.TextStrokeTransparency = 223.000
+Spectate_4.TextWrapped = true
+
+Spectate_5.Name = "Spectate"
+Spectate_5.Parent = ScrollingFrame
+Spectate_5.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_5.Position = UDim2.new(0.806649327, 0, 0.386543602, 0)
+Spectate_5.Size = UDim2.new(0, 138, 0, 42)
+Spectate_5.Font = Enum.Font.SourceSans
+Spectate_5.Text = "Spectate"
+Spectate_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_5.TextScaled = true
+Spectate_5.TextSize = 20.000
+Spectate_5.TextStrokeTransparency = 223.000
+Spectate_5.TextWrapped = true
+
+Spectate_6.Name = "Spectate"
+Spectate_6.Parent = ScrollingFrame
+Spectate_6.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_6.Position = UDim2.new(0.806649327, 0, 0.164907679, 0)
+Spectate_6.Size = UDim2.new(0, 138, 0, 42)
+Spectate_6.Font = Enum.Font.SourceSans
+Spectate_6.Text = "Spectate"
+Spectate_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_6.TextScaled = true
+Spectate_6.TextSize = 20.000
+Spectate_6.TextStrokeTransparency = 223.000
+Spectate_6.TextWrapped = true
+
+Spectate_7.Name = "Spectate"
+Spectate_7.Parent = ScrollingFrame
+Spectate_7.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_7.Position = UDim2.new(0.806649327, 0, 0.221635982, 0)
+Spectate_7.Size = UDim2.new(0, 138, 0, 42)
+Spectate_7.Font = Enum.Font.SourceSans
+Spectate_7.Text = "Spectate"
+Spectate_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_7.TextScaled = true
+Spectate_7.TextSize = 20.000
+Spectate_7.TextStrokeTransparency = 223.000
+Spectate_7.TextWrapped = true
+
+Spectate_8.Name = "Spectate"
+Spectate_8.Parent = ScrollingFrame
+Spectate_8.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_8.Position = UDim2.new(0.806649327, 0, 0.331134677, 0)
+Spectate_8.Size = UDim2.new(0, 138, 0, 42)
+Spectate_8.Font = Enum.Font.SourceSans
+Spectate_8.Text = "Spectate"
+Spectate_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_8.TextScaled = true
+Spectate_8.TextSize = 20.000
+Spectate_8.TextStrokeTransparency = 223.000
+Spectate_8.TextWrapped = true
+
+Spectate_9.Name = "Spectate"
+Spectate_9.Parent = ScrollingFrame
+Spectate_9.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_9.Position = UDim2.new(0.806649327, 0, 0.386543602, 0)
+Spectate_9.Size = UDim2.new(0, 138, 0, 42)
+Spectate_9.Font = Enum.Font.SourceSans
+Spectate_9.Text = "Spectate"
+Spectate_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_9.TextScaled = true
+Spectate_9.TextSize = 20.000
+Spectate_9.TextStrokeTransparency = 223.000
+Spectate_9.TextWrapped = true
+
+Spectate_10.Name = "Spectate"
+Spectate_10.Parent = ScrollingFrame
+Spectate_10.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_10.Position = UDim2.new(0.806649327, 0, -0.00263852254, 0)
+Spectate_10.Size = UDim2.new(0, 138, 0, 42)
+Spectate_10.Font = Enum.Font.SourceSans
+Spectate_10.Text = "Spectate"
+Spectate_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_10.TextScaled = true
+Spectate_10.TextSize = 20.000
+Spectate_10.TextStrokeTransparency = 223.000
+Spectate_10.TextWrapped = true
+
+Spectate_11.Name = "Spectate"
+Spectate_11.Parent = ScrollingFrame
+Spectate_11.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_11.Position = UDim2.new(0.806649327, 0, 0.277044922, 0)
+Spectate_11.Size = UDim2.new(0, 138, 0, 42)
+Spectate_11.Font = Enum.Font.SourceSans
+Spectate_11.Text = "Spectate"
+Spectate_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_11.TextScaled = true
+Spectate_11.TextSize = 20.000
+Spectate_11.TextStrokeTransparency = 223.000
+Spectate_11.TextWrapped = true
+
+Spectate_12.Name = "Spectate"
+Spectate_12.Parent = ScrollingFrame
+Spectate_12.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_12.Position = UDim2.new(0.806649327, 0, 0.0527704507, 0)
+Spectate_12.Size = UDim2.new(0, 138, 0, 42)
+Spectate_12.Font = Enum.Font.SourceSans
+Spectate_12.Text = "Spectate"
+Spectate_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_12.TextScaled = true
+Spectate_12.TextSize = 20.000
+Spectate_12.TextStrokeTransparency = 223.000
+Spectate_12.TextWrapped = true
+
+Spectate_13.Name = "Spectate"
+Spectate_13.Parent = ScrollingFrame
+Spectate_13.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_13.Position = UDim2.new(0.806649327, 0, 0.10817942, 0)
+Spectate_13.Size = UDim2.new(0, 138, 0, 42)
+Spectate_13.Font = Enum.Font.SourceSans
+Spectate_13.Text = "Spectate"
+Spectate_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_13.TextScaled = true
+Spectate_13.TextSize = 20.000
+Spectate_13.TextStrokeTransparency = 223.000
+Spectate_13.TextWrapped = true
+
+Spectate_14.Name = "Spectate"
+Spectate_14.Parent = ScrollingFrame
+Spectate_14.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_14.Position = UDim2.new(0.806649327, 0, 0.331134677, 0)
+Spectate_14.Size = UDim2.new(0, 138, 0, 42)
+Spectate_14.Font = Enum.Font.SourceSans
+Spectate_14.Text = "Spectate"
+Spectate_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_14.TextScaled = true
+Spectate_14.TextSize = 20.000
+Spectate_14.TextStrokeTransparency = 223.000
+Spectate_14.TextWrapped = true
+
+Spectate_15.Name = "Spectate"
+Spectate_15.Parent = ScrollingFrame
+Spectate_15.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_15.Position = UDim2.new(0.806649327, 0, 0.164907679, 0)
+Spectate_15.Size = UDim2.new(0, 138, 0, 42)
+Spectate_15.Font = Enum.Font.SourceSans
+Spectate_15.Text = "Spectate"
+Spectate_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_15.TextScaled = true
+Spectate_15.TextSize = 20.000
+Spectate_15.TextStrokeTransparency = 223.000
+Spectate_15.TextWrapped = true
+
+TextBox_2.Parent = ScrollingFrame
+TextBox_2.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_2.Position = UDim2.new(0.494363278, 0, 0, 0)
+TextBox_2.Size = UDim2.new(0, 134, 0, 39)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+Spectate_16.Name = "Spectate"
+Spectate_16.Parent = ScrollingFrame
+Spectate_16.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_16.Position = UDim2.new(0.806649327, 0, 0.0527704507, 0)
+Spectate_16.Size = UDim2.new(0, 138, 0, 42)
+Spectate_16.Font = Enum.Font.SourceSans
+Spectate_16.Text = "Spectate"
+Spectate_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_16.TextScaled = true
+Spectate_16.TextSize = 20.000
+Spectate_16.TextStrokeTransparency = 223.000
+Spectate_16.TextWrapped = true
+
+Spectate_17.Name = "Spectate"
+Spectate_17.Parent = ScrollingFrame
+Spectate_17.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_17.Position = UDim2.new(0.806649327, 0, 0.277044922, 0)
+Spectate_17.Size = UDim2.new(0, 138, 0, 42)
+Spectate_17.Font = Enum.Font.SourceSans
+Spectate_17.Text = "Spectate"
+Spectate_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_17.TextScaled = true
+Spectate_17.TextSize = 20.000
+Spectate_17.TextStrokeTransparency = 223.000
+Spectate_17.TextWrapped = true
+
+Spectate_18.Name = "Spectate"
+Spectate_18.Parent = ScrollingFrame
+Spectate_18.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_18.Position = UDim2.new(0.806649327, 0, 0.10817942, 0)
+Spectate_18.Size = UDim2.new(0, 138, 0, 42)
+Spectate_18.Font = Enum.Font.SourceSans
+Spectate_18.Text = "Spectate"
+Spectate_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_18.TextScaled = true
+Spectate_18.TextSize = 20.000
+Spectate_18.TextStrokeTransparency = 223.000
+Spectate_18.TextWrapped = true
+
+Unban_3.Name = "Unban"
+Unban_3.Parent = ScrollingFrame
+Unban_3.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_3.Position = UDim2.new(0.332375318, 0, 0, 0)
+Unban_3.Size = UDim2.new(0, 130, 0, 39)
+Unban_3.Font = Enum.Font.SourceSans
+Unban_3.Text = "UnBan"
+Unban_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_3.TextSize = 55.000
+Unban_3.TextWrapped = true
+
+Spectate_19.Name = "Spectate"
+Spectate_19.Parent = ScrollingFrame
+Spectate_19.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_19.Position = UDim2.new(0.806649327, 0, 0.221635982, 0)
+Spectate_19.Size = UDim2.new(0, 138, 0, 42)
+Spectate_19.Font = Enum.Font.SourceSans
+Spectate_19.Text = "Spectate"
+Spectate_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_19.TextScaled = true
+Spectate_19.TextSize = 20.000
+Spectate_19.TextStrokeTransparency = 223.000
+Spectate_19.TextWrapped = true
+
+Spectate_20.Name = "Spectate"
+Spectate_20.Parent = ScrollingFrame
+Spectate_20.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_20.Position = UDim2.new(0.806649327, 0, -0.00263852254, 0)
+Spectate_20.Size = UDim2.new(0, 138, 0, 42)
+Spectate_20.Font = Enum.Font.SourceSans
+Spectate_20.Text = "Spectate"
+Spectate_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_20.TextScaled = true
+Spectate_20.TextSize = 20.000
+Spectate_20.TextStrokeTransparency = 223.000
+Spectate_20.TextWrapped = true
+
+User.Name = "User"
+User.Parent = ScrollingFrame
+User.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User.Size = UDim2.new(0, 140, 0, 39)
+User.Font = Enum.Font.SourceSans
+User.Text = "444misc"
+User.TextColor3 = Color3.fromRGB(0, 0, 0)
+User.TextScaled = true
+User.TextSize = 14.000
+User.TextWrapped = true
+
+Unban_4.Name = "Unban"
+Unban_4.Parent = ScrollingFrame
+Unban_4.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_4.Position = UDim2.new(0.172643647, 0, 0, 0)
+Unban_4.Size = UDim2.new(0, 129, 0, 39)
+Unban_4.Font = Enum.Font.SourceSans
+Unban_4.Text = "Kick"
+Unban_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_4.TextSize = 55.000
+Unban_4.TextWrapped = true
+
+Unban_5.Name = "Unban"
+Unban_5.Parent = ScrollingFrame
+Unban_5.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_5.Position = UDim2.new(0.172643647, 0, 0.479838729, 0)
+Unban_5.Size = UDim2.new(0, 129, 0, 39)
+Unban_5.Font = Enum.Font.SourceSans
+Unban_5.Text = "Kick"
+Unban_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_5.TextSize = 55.000
+Unban_5.TextWrapped = true
+
+TextBox_3.Parent = ScrollingFrame
+TextBox_3.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_3.Position = UDim2.new(0.494363278, 0, 0.0537634417, 0)
+TextBox_3.Size = UDim2.new(0, 134, 0, 39)
+TextBox_3.Font = Enum.Font.SourceSans
+TextBox_3.Text = "Ban/Unban Note Here"
+TextBox_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.TextScaled = true
+TextBox_3.TextSize = 14.000
+TextBox_3.TextWrapped = true
+
+Unban_6.Name = "Unban"
+Unban_6.Parent = ScrollingFrame
+Unban_6.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_6.Position = UDim2.new(0.332375318, 0, 0.0537634417, 0)
+Unban_6.Size = UDim2.new(0, 130, 0, 39)
+Unban_6.Font = Enum.Font.SourceSans
+Unban_6.Text = "UnBan"
+Unban_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_6.TextSize = 55.000
+Unban_6.TextWrapped = true
+
+Unban_7.Name = "Unban"
+Unban_7.Parent = ScrollingFrame
+Unban_7.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_7.Position = UDim2.new(0.172643647, 0, 0.0537634417, 0)
+Unban_7.Size = UDim2.new(0, 129, 0, 39)
+Unban_7.Font = Enum.Font.SourceSans
+Unban_7.Text = "Kick"
+Unban_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_7.TextSize = 55.000
+Unban_7.TextWrapped = true
+
+User_2.Name = "User"
+User_2.Parent = ScrollingFrame
+User_2.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_2.Position = UDim2.new(0, 0, 0.0537634417, 0)
+User_2.Size = UDim2.new(0, 140, 0, 39)
+User_2.Font = Enum.Font.SourceSans
+User_2.Text = "2qway36"
+User_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_2.TextScaled = true
+User_2.TextSize = 14.000
+User_2.TextWrapped = true
+
+User_3.Name = "User"
+User_3.Parent = ScrollingFrame
+User_3.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_3.Size = UDim2.new(0, 140, 0, 39)
+User_3.Font = Enum.Font.SourceSans
+User_3.Text = "444misc"
+User_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_3.TextScaled = true
+User_3.TextSize = 14.000
+User_3.TextWrapped = true
+
+User_4.Name = "User"
+User_4.Parent = ScrollingFrame
+User_4.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_4.Position = UDim2.new(0, 0, 0.161290318, 0)
+User_4.Size = UDim2.new(0, 140, 0, 39)
+User_4.Font = Enum.Font.SourceSans
+User_4.Text = "0q6we"
+User_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_4.TextScaled = true
+User_4.TextSize = 14.000
+User_4.TextWrapped = true
+
+Unban_8.Name = "Unban"
+Unban_8.Parent = ScrollingFrame
+Unban_8.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_8.Position = UDim2.new(0.332375318, 0, 0.107526883, 0)
+Unban_8.Size = UDim2.new(0, 130, 0, 39)
+Unban_8.Font = Enum.Font.SourceSans
+Unban_8.Text = "UnBan"
+Unban_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_8.TextSize = 55.000
+Unban_8.TextWrapped = true
+
+TextBox_4.Parent = ScrollingFrame
+TextBox_4.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_4.Position = UDim2.new(0.494363278, 0, 0.107526883, 0)
+TextBox_4.Size = UDim2.new(0, 134, 0, 39)
+TextBox_4.Font = Enum.Font.SourceSans
+TextBox_4.Text = "Ban/Unban Note Here"
+TextBox_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_4.TextScaled = true
+TextBox_4.TextSize = 14.000
+TextBox_4.TextWrapped = true
+
+Unban_9.Name = "Unban"
+Unban_9.Parent = ScrollingFrame
+Unban_9.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_9.Position = UDim2.new(0.172643647, 0, 0.107526883, 0)
+Unban_9.Size = UDim2.new(0, 129, 0, 39)
+Unban_9.Font = Enum.Font.SourceSans
+Unban_9.Text = "Kick"
+Unban_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_9.TextSize = 55.000
+Unban_9.TextWrapped = true
+
+User_5.Name = "User"
+User_5.Parent = ScrollingFrame
+User_5.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_5.Position = UDim2.new(0, 0, 0.107526883, 0)
+User_5.Size = UDim2.new(0, 140, 0, 39)
+User_5.Font = Enum.Font.SourceSans
+User_5.Text = "1EL3AA"
+User_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_5.TextScaled = true
+User_5.TextSize = 14.000
+User_5.TextWrapped = true
+
+Unban_10.Name = "Unban"
+Unban_10.Parent = ScrollingFrame
+Unban_10.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_10.Position = UDim2.new(0.172643647, 0, 0.161290318, 0)
+Unban_10.Size = UDim2.new(0, 129, 0, 39)
+Unban_10.Font = Enum.Font.SourceSans
+Unban_10.Text = "Kick"
+Unban_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_10.TextSize = 55.000
+Unban_10.TextWrapped = true
+
+TextBox_5.Parent = ScrollingFrame
+TextBox_5.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_5.Position = UDim2.new(0.494363278, 0, 0.161290318, 0)
+TextBox_5.Size = UDim2.new(0, 134, 0, 39)
+TextBox_5.Font = Enum.Font.SourceSans
+TextBox_5.Text = "Ban/Unban Note Here"
+TextBox_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_5.TextScaled = true
+TextBox_5.TextSize = 14.000
+TextBox_5.TextWrapped = true
+
+Unban_11.Name = "Unban"
+Unban_11.Parent = ScrollingFrame
+Unban_11.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_11.Position = UDim2.new(0.332375318, 0, 0.161290318, 0)
+Unban_11.Size = UDim2.new(0, 130, 0, 39)
+Unban_11.Font = Enum.Font.SourceSans
+Unban_11.Text = "UnBan"
+Unban_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_11.TextSize = 55.000
+Unban_11.TextWrapped = true
+
+TextBox_6.Parent = ScrollingFrame
+TextBox_6.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_6.Position = UDim2.new(0.494363278, 0, 0.321236551, 0)
+TextBox_6.Size = UDim2.new(0, 134, 0, 39)
+TextBox_6.Font = Enum.Font.SourceSans
+TextBox_6.Text = "Ban/Unban Note Here"
+TextBox_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_6.TextScaled = true
+TextBox_6.TextSize = 14.000
+TextBox_6.TextWrapped = true
+
+Unban_12.Name = "Unban"
+Unban_12.Parent = ScrollingFrame
+Unban_12.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_12.Position = UDim2.new(0.332375318, 0, 0.321236551, 0)
+Unban_12.Size = UDim2.new(0, 130, 0, 39)
+Unban_12.Font = Enum.Font.SourceSans
+Unban_12.Text = "UnBan"
+Unban_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_12.TextSize = 55.000
+Unban_12.TextWrapped = true
+
+TextBox_7.Parent = ScrollingFrame
+TextBox_7.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_7.Position = UDim2.new(0.494363278, 0, 0.267473102, 0)
+TextBox_7.Size = UDim2.new(0, 134, 0, 39)
+TextBox_7.Font = Enum.Font.SourceSans
+TextBox_7.Text = "Ban/Unban Note Here"
+TextBox_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_7.TextScaled = true
+TextBox_7.TextSize = 14.000
+TextBox_7.TextWrapped = true
+
+Unban_13.Name = "Unban"
+Unban_13.Parent = ScrollingFrame
+Unban_13.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_13.Position = UDim2.new(0.332375318, 0, 0.267473102, 0)
+Unban_13.Size = UDim2.new(0, 130, 0, 39)
+Unban_13.Font = Enum.Font.SourceSans
+Unban_13.Text = "UnBan"
+Unban_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_13.TextSize = 55.000
+Unban_13.TextWrapped = true
+
+Unban_14.Name = "Unban"
+Unban_14.Parent = ScrollingFrame
+Unban_14.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_14.Position = UDim2.new(0.172643647, 0, 0.267473102, 0)
+Unban_14.Size = UDim2.new(0, 129, 0, 39)
+Unban_14.Font = Enum.Font.SourceSans
+Unban_14.Text = "Kick"
+Unban_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_14.TextSize = 55.000
+Unban_14.TextWrapped = true
+
+Unban_15.Name = "Unban"
+Unban_15.Parent = ScrollingFrame
+Unban_15.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_15.Position = UDim2.new(0.172643647, 0, 0.321236551, 0)
+Unban_15.Size = UDim2.new(0, 129, 0, 39)
+Unban_15.Font = Enum.Font.SourceSans
+Unban_15.Text = "Kick"
+Unban_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_15.TextSize = 55.000
+Unban_15.TextWrapped = true
+
+User_6.Name = "User"
+User_6.Parent = ScrollingFrame
+User_6.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_6.Position = UDim2.new(0, 0, 0.321236551, 0)
+User_6.Size = UDim2.new(0, 140, 0, 39)
+User_6.Font = Enum.Font.SourceSans
+User_6.Text = "2shy_4you"
+User_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_6.TextScaled = true
+User_6.TextSize = 14.000
+User_6.TextWrapped = true
+
+User_7.Name = "User"
+User_7.Parent = ScrollingFrame
+User_7.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_7.Position = UDim2.new(0, 0, 0.267473102, 0)
+User_7.Size = UDim2.new(0, 140, 0, 39)
+User_7.Font = Enum.Font.SourceSans
+User_7.Text = "0402_mausii"
+User_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_7.TextScaled = true
+User_7.TextSize = 14.000
+User_7.TextWrapped = true
+
+Unban_16.Name = "Unban"
+Unban_16.Parent = ScrollingFrame
+Unban_16.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_16.Position = UDim2.new(0.172643647, 0, 0.213709682, 0)
+Unban_16.Size = UDim2.new(0, 129, 0, 39)
+Unban_16.Font = Enum.Font.SourceSans
+Unban_16.Text = "Kick"
+Unban_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_16.TextSize = 55.000
+Unban_16.TextWrapped = true
+
+Unban_17.Name = "Unban"
+Unban_17.Parent = ScrollingFrame
+Unban_17.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_17.Position = UDim2.new(0.332375318, 0, 0.213709682, 0)
+Unban_17.Size = UDim2.new(0, 130, 0, 39)
+Unban_17.Font = Enum.Font.SourceSans
+Unban_17.Text = "UnBan"
+Unban_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_17.TextSize = 55.000
+Unban_17.TextWrapped = true
+
+TextBox_8.Parent = ScrollingFrame
+TextBox_8.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_8.Position = UDim2.new(0.494363278, 0, 0.213709682, 0)
+TextBox_8.Size = UDim2.new(0, 134, 0, 39)
+TextBox_8.Font = Enum.Font.SourceSans
+TextBox_8.Text = "Ban/Unban Note Here"
+TextBox_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_8.TextScaled = true
+TextBox_8.TextSize = 14.000
+TextBox_8.TextWrapped = true
+
+User_8.Name = "User"
+User_8.Parent = ScrollingFrame
+User_8.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_8.Position = UDim2.new(0, 0, 0.213709682, 0)
+User_8.Size = UDim2.new(0, 140, 0, 39)
+User_8.Font = Enum.Font.SourceSans
+User_8.Text = "Adam_cute20"
+User_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_8.TextScaled = true
+User_8.TextSize = 14.000
+User_8.TextWrapped = true
+
+Unban_18.Name = "Unban"
+Unban_18.Parent = ScrollingFrame
+Unban_18.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_18.Position = UDim2.new(0.332375318, 0, 0.373655915, 0)
+Unban_18.Size = UDim2.new(0, 130, 0, 39)
+Unban_18.Font = Enum.Font.SourceSans
+Unban_18.Text = "UnBan"
+Unban_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_18.TextSize = 55.000
+Unban_18.TextWrapped = true
+
+Unban_19.Name = "Unban"
+Unban_19.Parent = ScrollingFrame
+Unban_19.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_19.Position = UDim2.new(0.172643647, 0, 0.373655915, 0)
+Unban_19.Size = UDim2.new(0, 129, 0, 39)
+Unban_19.Font = Enum.Font.SourceSans
+Unban_19.Text = "Kick"
+Unban_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_19.TextSize = 55.000
+Unban_19.TextWrapped = true
+
+User_9.Name = "User"
+User_9.Parent = ScrollingFrame
+User_9.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_9.Position = UDim2.new(0, 0, 0.373655915, 0)
+User_9.Size = UDim2.new(0, 140, 0, 39)
+User_9.Font = Enum.Font.SourceSans
+User_9.Text = "dracolintje"
+User_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_9.TextScaled = true
+User_9.TextSize = 14.000
+User_9.TextWrapped = true
+
+User_10.Name = "User"
+User_10.Parent = ScrollingFrame
+User_10.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_10.Position = UDim2.new(0, 0, 0.427419364, 0)
+User_10.Size = UDim2.new(0, 140, 0, 39)
+User_10.Font = Enum.Font.SourceSans
+User_10.Text = "ABOBAS263"
+User_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_10.TextScaled = true
+User_10.TextSize = 14.000
+User_10.TextWrapped = true
+
+Unban_20.Name = "Unban"
+Unban_20.Parent = ScrollingFrame
+Unban_20.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Unban_20.Position = UDim2.new(0.172643647, 0, 0.427419364, 0)
+Unban_20.Size = UDim2.new(0, 129, 0, 39)
+Unban_20.Font = Enum.Font.SourceSans
+Unban_20.Text = "Kick"
+Unban_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_20.TextSize = 55.000
+Unban_20.TextWrapped = true
+
+Unban_21.Name = "Unban"
+Unban_21.Parent = ScrollingFrame
+Unban_21.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_21.Position = UDim2.new(0.332375318, 0, 0.427419364, 0)
+Unban_21.Size = UDim2.new(0, 130, 0, 39)
+Unban_21.Font = Enum.Font.SourceSans
+Unban_21.Text = "UnBan"
+Unban_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_21.TextSize = 55.000
+Unban_21.TextWrapped = true
+
+TextBox_9.Parent = ScrollingFrame
+TextBox_9.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_9.Position = UDim2.new(0.494363278, 0, 0.427419364, 0)
+TextBox_9.Size = UDim2.new(0, 134, 0, 39)
+TextBox_9.Font = Enum.Font.SourceSans
+TextBox_9.Text = "Ban/Unban Note Here"
+TextBox_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_9.TextScaled = true
+TextBox_9.TextSize = 14.000
+TextBox_9.TextWrapped = true
+
+TextBox_10.Parent = ScrollingFrame
+TextBox_10.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_10.Position = UDim2.new(0.494363278, 0, 0.373655915, 0)
+TextBox_10.Size = UDim2.new(0, 134, 0, 39)
+TextBox_10.Font = Enum.Font.SourceSans
+TextBox_10.Text = "Ban/Unban Note Here"
+TextBox_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_10.TextScaled = true
+TextBox_10.TextSize = 14.000
+TextBox_10.TextWrapped = true
+
+User_11.Name = "User"
+User_11.Parent = ScrollingFrame
+User_11.BackgroundColor3 = Color3.fromRGB(183, 15, 24)
+User_11.Position = UDim2.new(0, 0, 0.479838729, 0)
+User_11.Size = UDim2.new(0, 140, 0, 39)
+User_11.Font = Enum.Font.SourceSans
+User_11.Text = "Dammior"
+User_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+User_11.TextScaled = true
+User_11.TextSize = 14.000
+User_11.TextWrapped = true
+
+Unban_22.Name = "Unban"
+Unban_22.Parent = ScrollingFrame
+Unban_22.BackgroundColor3 = Color3.fromRGB(46, 167, 83)
+Unban_22.Position = UDim2.new(0.332375318, 0, 0.479838729, 0)
+Unban_22.Size = UDim2.new(0, 130, 0, 39)
+Unban_22.Font = Enum.Font.SourceSans
+Unban_22.Text = "UnBan"
+Unban_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+Unban_22.TextSize = 55.000
+Unban_22.TextWrapped = true
+
+TextBox_11.Parent = ScrollingFrame
+TextBox_11.BackgroundColor3 = Color3.fromRGB(136, 136, 136)
+TextBox_11.Position = UDim2.new(0.494363278, 0, 0.479838729, 0)
+TextBox_11.Size = UDim2.new(0, 134, 0, 39)
+TextBox_11.Font = Enum.Font.SourceSans
+TextBox_11.Text = "Ban/Unban Note Here"
+TextBox_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_11.TextScaled = true
+TextBox_11.TextSize = 14.000
+TextBox_11.TextWrapped = true
+
+Spectate_21.Name = "Spectate"
+Spectate_21.Parent = ScrollingFrame
+Spectate_21.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_21.Position = UDim2.new(0.659465551, 0, 0.054160662, 0)
+Spectate_21.Size = UDim2.new(0, 119, 0, 40)
+Spectate_21.Font = Enum.Font.SourceSans
+Spectate_21.Text = "Teleport"
+Spectate_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_21.TextScaled = true
+Spectate_21.TextSize = 20.000
+Spectate_21.TextStrokeTransparency = 223.000
+Spectate_21.TextWrapped = true
+
+Spectate_22.Name = "Spectate"
+Spectate_22.Parent = ScrollingFrame
+Spectate_22.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_22.Position = UDim2.new(0.659465551, 0, 0.164375708, 0)
+Spectate_22.Size = UDim2.new(0, 119, 0, 40)
+Spectate_22.Font = Enum.Font.SourceSans
+Spectate_22.Text = "Teleport"
+Spectate_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_22.TextScaled = true
+Spectate_22.TextSize = 20.000
+Spectate_22.TextStrokeTransparency = 223.000
+Spectate_22.TextWrapped = true
+
+Spectate_23.Name = "Spectate"
+Spectate_23.Parent = ScrollingFrame
+Spectate_23.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_23.Position = UDim2.new(0.659465551, 0, 0.110612273, 0)
+Spectate_23.Size = UDim2.new(0, 119, 0, 40)
+Spectate_23.Font = Enum.Font.SourceSans
+Spectate_23.Text = "Teleport"
+Spectate_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_23.TextScaled = true
+Spectate_23.TextSize = 20.000
+Spectate_23.TextStrokeTransparency = 223.000
+Spectate_23.TextWrapped = true
+
+Spectate_24.Name = "Spectate"
+Spectate_24.Parent = ScrollingFrame
+Spectate_24.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_24.Position = UDim2.new(0.659465551, 0, 0.386149883, 0)
+Spectate_24.Size = UDim2.new(0, 119, 0, 40)
+Spectate_24.Font = Enum.Font.SourceSans
+Spectate_24.Text = "Teleport"
+Spectate_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_24.TextScaled = true
+Spectate_24.TextSize = 20.000
+Spectate_24.TextStrokeTransparency = 223.000
+Spectate_24.TextWrapped = true
+
+Spectate_25.Name = "Spectate"
+Spectate_25.Parent = ScrollingFrame
+Spectate_25.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_25.Position = UDim2.new(0.659465551, 0, 0.331042379, 0)
+Spectate_25.Size = UDim2.new(0, 119, 0, 40)
+Spectate_25.Font = Enum.Font.SourceSans
+Spectate_25.Text = "Teleport"
+Spectate_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_25.TextScaled = true
+Spectate_25.TextSize = 20.000
+Spectate_25.TextStrokeTransparency = 223.000
+Spectate_25.TextWrapped = true
+
+Spectate_26.Name = "Spectate"
+Spectate_26.Parent = ScrollingFrame
+Spectate_26.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_26.Position = UDim2.new(0.659465551, 0, 0.275934845, 0)
+Spectate_26.Size = UDim2.new(0, 119, 0, 40)
+Spectate_26.Font = Enum.Font.SourceSans
+Spectate_26.Text = "Teleport"
+Spectate_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_26.TextScaled = true
+Spectate_26.TextSize = 20.000
+Spectate_26.TextStrokeTransparency = 223.000
+Spectate_26.TextWrapped = true
+
+Spectate_27.Name = "Spectate"
+Spectate_27.Parent = ScrollingFrame
+Spectate_27.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_27.Position = UDim2.new(0.659465551, 0, 0.220827341, 0)
+Spectate_27.Size = UDim2.new(0, 119, 0, 40)
+Spectate_27.Font = Enum.Font.SourceSans
+Spectate_27.Text = "Teleport"
+Spectate_27.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_27.TextScaled = true
+Spectate_27.TextSize = 20.000
+Spectate_27.TextStrokeTransparency = 223.000
+Spectate_27.TextWrapped = true
+
+Spectate_28.Name = "Spectate"
+Spectate_28.Parent = ScrollingFrame
+Spectate_28.BackgroundColor3 = Color3.fromRGB(246, 252, 255)
+Spectate_28.Position = UDim2.new(0.659465551, 0, 0.441257417, 0)
+Spectate_28.Size = UDim2.new(0, 119, 0, 40)
+Spectate_28.Font = Enum.Font.SourceSans
+Spectate_28.Text = "Teleport"
+Spectate_28.TextColor3 = Color3.fromRGB(0, 0, 0)
+Spectate_28.TextScaled = true
+Spectate_28.TextSize = 20.000
+Spectate_28.TextStrokeTransparency = 223.000
+Spectate_28.TextWrapped = true
+
+-- Scripts:
+
+local function GHYPIHV_fake_script() -- BanGui_2.LocalScript 
+	local script = Instance.new('LocalScript', BanGui_2)
+
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "b" then
+			script.Parent.Visible = true
+		end
+	end)
+	
+	local Plr = game.Players.LocalPlayer
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == "l" then
+			script.Parent.Visible = false
+		end
+	end)
+end
+coroutine.wrap(GHYPIHV_fake_script)()
+
+
+
+local c = workspace.CurrentCamera local ps = game:GetService("Players") local lp = ps.LocalPlayer local rs = game:GetService("RunService") local function esp(p,cr) local h = cr:WaitForChild("Humanoid") local hrp = cr:WaitForChild("HumanoidRootPart") local text = Drawing.new("Text") text.Visible = false text.Center = true text.Outline = true text.Font = 2 text.Color = Color3.fromRGB(255,0,0) text.Size = 23 local c1 local c2 local c3 local function dc() text.Visible = false text:Remove() if c1 then c1:Disconnect() c1 = nil end if c2 then c2:Disconnect() c2 = nil end if c3 then c3:Disconnect() c3 = nil end end c2 = cr.AncestryChanged:Connect(function(_,parent) if not parent then dc() end end) c3 = h.HealthChanged:Connect(function(v) if (v<=0) or (h:GetState() == Enum.HumanoidStateType.Dead) then dc() end end) c1 = rs.RenderStepped:Connect(function() local hrp_pos,hrp_onscreen = c:WorldToViewportPoint(hrp.Position) if hrp_onscreen then text.Position = Vector2.new(hrp_pos.X, hrp_pos.Y) text.Text = p.Name text.Visible = true else text.Visible = false end end) end local function p_added(p) if p.Character then esp(p,p.Character) end p.CharacterAdded:Connect(function(cr) esp(p,cr) end) end for i,p in next, ps:GetPlayers() do if p ~= lp then p_added(p) end end ps.PlayerAdded:Connect(p_added)
